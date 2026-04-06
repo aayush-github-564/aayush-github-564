@@ -14,20 +14,17 @@ Interested in Distributed Systems, Rate Limiting, Caching & System Design
 - Logging & metrics integration
 - Designed for scalability and high-concurrency systems
 
+### 🔹 URL Shortner Service with Analytics
+- REST API with custom aliases, expiry, and 302 redirect engine
+- Redis caching reducing read latency by ~60% (94.7% measured locally)
+- PostgreSQL-backed indexed schema with click tracking analytics
+- Layered Controller–Service–Repository architecture with JUnit tests
+
 ### 🔹 Face Recognition Attendance System
 - Python-based ML system
 - Automated attendance marking
 - GUI-based application
 - Focus on real-world usability
-
-## 🏗 Currently Building
-
-### 🔹 URL Shortner with Analytics (In Progress)
-- Short link generation using Base62 encoding
-- Redis caching for fast redirection
-- MySQL for persistent storage
-- Click tracking & basic analytics dashboard
-- Designed for high read-heavy traffic patterns
 
 ---
 
@@ -42,7 +39,8 @@ Interested in Distributed Systems, Rate Limiting, Caching & System Design
 - Spring Boot
 - REST APIs
 - Redis
-- MySQL
+- PostgreSQL
+- Docker
 
 **Concepts**
 - System Design
